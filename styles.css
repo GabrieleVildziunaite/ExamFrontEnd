@@ -8,23 +8,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    margin: 32px;
 }
 
 .hero {
     margin-left: 32px;
     display: flex;
     flex-direction: row;
-    width: 448.62px;
-    height: 448px;
-    overflow: hidden;
 }
-.hero-text {
-    width: 274px;
-    height: 410px;
-}
+
 .hero-pic {
-    height: 278px;
+    width: 278px;
+    height: 175,69px;
 }
 
 .button {
@@ -59,7 +54,9 @@ h1 {
     width: max-content;
 
 }
-
+.hero-text {
+    width: 247px;
+}
 p {
      color: #555555;
      font-size: 20px;
@@ -84,25 +81,11 @@ p {
 .upsell {
     background-image: url('background.svg');
     height: 326px;
-    margin-left: -20px;
-    width: max-content;
+   margin-left: -20px;
 }
 .upsell-box {
     margin-left: 32px;
     margin-right: 32px;
 }
-.press {
-    width: 364px;
-    display: flex;
-    margin-right: 32px;
-    margin-left: 32px;
-    margin-top: 64px;
-    margin-bottom: 64px;
-}
-.press-left {
-    max-width: 139px;
-    overflow: hidden;
-}
-.press-rigth {
-    padding-left: 70px;
-}
+
+
