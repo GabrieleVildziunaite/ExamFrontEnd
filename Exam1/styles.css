@@ -1,0 +1,108 @@
+body {
+    width: 428px;
+}
+
+header {
+    width: 364px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.hero {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: row;
+    width: 448.62px;
+    height: 448px;
+    overflow: hidden;
+}
+.hero-text {
+    width: 274px;
+    height: 410px;
+}
+.hero-pic {
+    height: 278px;
+}
+
+.button {
+    display: inline-block;
+    padding: 22px 56px 23px 56px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    outline: none;
+    border: orangered solid 4px;
+    border-radius: 30px;
+    
+}
+
+
+h3 {
+    color: #FF3998;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+}
+h1 {
+    color: #111111;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    width: max-content;
+
+}
+
+p {
+     color: #555555;
+     font-size: 20px;
+     font-family: 'Inter', sans-serif;
+     font-weight: lighter;
+ }
+ .p2 {
+     line-height: 30px;
+     color: #111111;
+     font-weight: 400;
+     margin-left: 34.34px;
+ }
+  h2 {
+      color: #111111;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      margin-left: 34.34px;
+      font-size: 40px;
+      padding-top: 100px;
+  }
+
+.upsell {
+    background-image: url('background.svg');
+    height: 326px;
+    margin-left: -20px;
+    width: max-content;
+}
+.upsell-box {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.press {
+    width: 364px;
+    display: flex;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.press-left {
+    max-width: 139px;
+    overflow: hidden;
+}
+.press-rigth {
+    padding-left: 70px;
+}

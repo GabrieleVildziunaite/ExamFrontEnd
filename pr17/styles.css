@@ -1,0 +1,115 @@
+.main, .secondary {
+  border: 2px solid black;
+}
+
+.main {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+}
+
+.secondary {
+  background-color: grey;
+  border: 2px solid blue;
+  width: 200px;
+  height: 200px;
+}
+
+@font-face {
+  font-family: Sans;
+  src: url(pr17/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+
+.box {
+  width: 25%;
+  border: 2px solid #f4f6fc;
+  color: #080f1a;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Sans;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  color: #080f1a;
+  font-size: larger;
+}
+
+.undertitle {
+  text-align: center;
+  font-weight: bold;
+  color: #73829e;
+  font-size: smaller;
+}
+
+.price {
+  background-color: #f4f6fc;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.number {
+  font-size: xx-large;
+  height: 5vh;
+  font-size: 5vh;
+  line-height: 5vh;
+}
+
+.other {
+  font-size: medium;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.longtext {
+  text-align: center;
+  color: #080f1a;
+}
+
+.mybtn {
+  color: #303ca5;
+  border: 1px solid #303ca5;
+  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: white;
+  height: 50px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.fainttext {
+  font-size: small;
+  color: #73829e;
+  text-align: center;
+}
+
+.bottomlines {
+  text-align: center;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  -webkit-text-decoration-color: #73829e;
+          text-decoration-color: #73829e;
+  margin-top: 20px;
+  color: #080f1a;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=styles.css.map */

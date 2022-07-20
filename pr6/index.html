@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form  action="https://formspree.io/f/xzbowybr" class="form" method="POST">
+        
+         <h1>Create an account</h1> 
+         <label for="email">Email:</label>
+         <input type="email" name="email" autofocus required> <br><br>
+         <label for="password">Password:</label>
+         <input type="password" name="password" minlength="8" maxlength="22" required><br>
+         <label for="age">Age:</label>
+         <select name="age" id="age" placeholder="Select age" required>
+             <option>Select age</option>
+             <option>18</option>
+             <option>19</option>
+             <option>20</option>
+             <option>21</option>
+             <option>22</option>
+             <option>23</option>
+             <option>24</option>
+             <option>25</option>
+             <option>26</option>
+         </select><br>
+         <label for="description">Tell us a little about yourself</label>
+         <textarea name="description" maxlength="200" rows="5" cols="45"></textarea><br>
+         <div class="checkbox">
+             <input type="checkbox" id="agree" name="agree" value="agree" required>
+             <label for="agree"> I agree to the <span class="blue">terms of servise</span></label>
+         </div> <br>
+         <button type="submit">Sign up</button>
+    </form>
+</body>
+</html>

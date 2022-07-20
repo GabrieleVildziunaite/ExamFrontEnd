@@ -1,0 +1,112 @@
+$bg-color: grey;
+
+%message-shared {
+    border: 2px solid black;
+    
+}
+
+.main {
+    background-color: $bg-color;
+    width: 100px;
+    height: 100px;
+    @extend %message-shared;
+
+}
+
+.secondary {
+    background-color: $bg-color;
+    @extend %message-shared;
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+}
+@font-face {
+    font-family: Sans;
+    src: url(pr17/Nunito_Sans/NunitoSans-Regular.ttf);
+  }
+
+$fnt-txt1: #080f1a;
+$fnt-txt2: #73829e;
+$btn-txt: #303ca5;
+$prs-bgr: #f4f6fc;
+
+.box {
+    width: 25%;
+    border: 2px solid $prs-bgr;
+    color: $fnt-txt1;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.container {
+    display: flex;
+    font-family: Sans;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    color: $fnt-txt1;
+    font-size: larger;
+}
+.undertitle {
+    text-align: center;
+    font-weight: bold;
+    color: $fnt-txt2;
+    font-size: smaller;
+}
+
+.price {
+    background-color: $prs-bgr;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.number {
+   font-size: xx-large;
+   height: 5vh;
+   font-size: 5vh;
+   line-height: 5vh;
+
+}
+.other {
+    font-size: medium;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.longtext {
+    text-align: center;
+    color: $fnt-txt1;
+}
+.mybtn {
+    color: $btn-txt;
+    border: 1px solid $btn-txt;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    
+}
+.fainttext {
+    font-size: small;
+    color: #73829e;
+    text-align: center;
+}
+.bottomlines {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #73829e;
+    margin-top: 20px;
+    color: $fnt-txt1;
+    font-weight: lighter;
+}

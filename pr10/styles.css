@@ -1,0 +1,33 @@
+.header {
+    background-color: yellow;
+    border-radius: 10px;
+}
+.nav-bar {
+    background-color: orange;
+    border-radius: 10px;
+}
+.block1 {
+    background-color: blue;
+    border-radius: 10px;
+}
+.block2 {
+    background-color: blue;
+    border-radius: 10px;
+}
+.block3 {
+    background-color: blue;
+    border-radius: 10px;
+}
+.footer {
+    background-color: pink;
+    border-radius: 10px;
+}
+.page {
+    width: 480px;
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}

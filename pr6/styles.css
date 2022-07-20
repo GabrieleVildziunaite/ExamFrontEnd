@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+.blue {
+    color: blue;
+    text-decoration: underline;
+}
