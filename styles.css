@@ -37,7 +37,7 @@ a.desktop.pink {
     height: 278px;
     z-index: 2;
     position: absolute;
-    padding-left: 150px;
+    padding-left: 160px;
 }
 
 .button {
@@ -127,9 +127,8 @@ p {
 
 .upsell {
     background-image: url('background.svg');
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 326px;
+    background-size: cover;
+    background-position: 20% 75%;
 
 }
 .upsell-box {
@@ -163,13 +162,14 @@ p {
     overflow: hidden;  
 }
 .press-image-rigth {
-    width: 140px;
+    width: 160px;
+    overflow: hidden;
    
 }
 .press-image-left {
-    width: 135px;
+    width: 138px;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 60px; 
     
 }
 .showcase {
